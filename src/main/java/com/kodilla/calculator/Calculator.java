@@ -1,11 +1,13 @@
 package com.kodilla.calculator;
 
 public class Calculator {
+    int a;
+    int b;
 
-    public void addition(){}
-    public void substraction(){}
-
-    public static void main(String args[]){
-        System.out.println("it works!!");
+    public int addition(int a, int b){
+        return a+b;
+    }
+    public int substraction(int a, int b){
+        return a-b;
     }
 }
